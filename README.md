@@ -2,6 +2,60 @@
 
 Command line app that solves the [Rick And Morty Challenge proposed by Chipax](https://www.notion.so/Rick-and-Morty-Challenge-84a1b794dc09429fb3178c2a24e7c217).
 
+## Results
+I saved the output of the program into the [output.json](output.json) file, so you can review it and verify my solution without the need of compiling the project.
+
+`Note that runtime of each exercise may vary depending on the internet connection speed.`
+
+This is a preview of the file, showing only the general structure of the output and a glance at my results:
+```json
+[
+	{
+		"exercise_name":"Char counter",
+		"time":"1s 686.2709610015154ms",
+		"in_time":true,
+		"results":[
+			{
+				"char":"l",
+				"count":82,
+				"resource":"locations"
+			},
+			{
+				"char":"e",
+				"count":88,
+				"resource":"episodes"
+			},
+			{
+				"char":"c",
+				"count":494,
+				"resource":"characters"
+			}
+		]
+	},
+	{
+		"excercise_name":"Episode locations",
+		"time":"2s 851.5861460007727ms",
+		"in_time":true,
+		"results":[
+			{
+				"name":"Pilot",
+				"episode":"S01E01",
+				"locations":[
+					"Bepis 9",
+					"Earth (C-137)",
+					"Girvonesk",
+					"Gromflom Prime",
+					"unknown"
+				],
+				"locationsCount":5
+			},
+			// ...
+            // to see the rest of the episodes, go to the output.json file
+		]
+	}
+]
+```
+
 ## Technicals
 
 ### About the project
