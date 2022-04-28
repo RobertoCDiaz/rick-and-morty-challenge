@@ -49,8 +49,8 @@ This is a preview of the file, showing only the general structure of the output 
 				],
 				"locationsCount":5
 			},
-			// ...
-            // to see the rest of the episodes, go to the output.json file
+			"...",
+			"to see the rest of the episodes, go to the output.json file"
 		]
 	}
 ]
