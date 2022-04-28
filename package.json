@@ -4,16 +4,13 @@
   "description": "My solution to the Rick and Morty Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RobertoCDiaz/rick-and-morty-challenge.git"
+    "start": "node index.js",
+    "test": "jest"
   },
   "author": "Roberto Díaz",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RobertoCDiaz/rick-and-morty-challenge/issues"
-  },
-  "homepage": "https://github.com/RobertoCDiaz/rick-and-morty-challenge#readme"
+  "dependencies": {
+    "axios": "^0.26.1",
+    "jest": "^27.5.1"
+  }
 }
