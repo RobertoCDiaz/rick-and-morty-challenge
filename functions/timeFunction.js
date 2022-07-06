@@ -1,3 +1,5 @@
+const { performance } = require('perf_hooks');
+
 /**
  * Compute the time it takes a function to execute from start to finish.
  * 
